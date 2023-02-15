@@ -29,8 +29,24 @@ button {
     transition: background-color 0.25s;
 }
 
+.search_box {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #000000;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 10px;
+    padding: 10px 2px;
+    transition: 0.25s;
+}
+.search_box:focus {
+    margin: 50px;
+}
+
 button:hover {
     background-color: rgba(0, 0, 0, 0.16);
+    color: black;
 }
 
 .menu {
@@ -60,7 +76,7 @@ button:hover {
 .hero {
     width: 100%;
     height: 70rem;
-    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-image: url("https://wallpaperaccess.com/full/347644.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -75,16 +91,22 @@ button:hover {
     font-size: 8rem;
     font-weight: bolder;
     color: white;
+    margin: 10px;
 }
 
 .subtitle {
     font-size: 4rem;
     font-weight: bold;
     color: white;
+    margin-bottom: 20px;
 }
 
 .back-white {
     background-color: rgb(221, 221, 221);
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .back-white:hover {
@@ -117,6 +139,7 @@ button:hover {
     flex-direction: column;
     text-align: center;
     margin: 1rem;
+    padding: 5px;
 }
 
 hr {
@@ -131,6 +154,8 @@ hr {
 .card_img {
     height: 5rem;
     width: 5rem;
+    border: 1px solid rgba(128, 128, 128, 0.103);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.154);
     border-radius: 2.5rem;
 }
 
@@ -198,4 +223,53 @@ p {
 
 .open_card_title_box {
     height: 100px;
+}
+
+.footer {
+    background-color: rgb(8, 142, 64);
+    min-height: 14rem;
+    max-height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.back-green {
+    background-color: rgb(8, 142, 64);
+    color: white;
+}
+
+.footer_element {
+    color: white;
+}
+
+.main_search {
+    background-color: white;
+    border-radius: 8px;
+    border-width: 0;
+    color: #000000;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 10px;
+    padding: 10px 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+}
+
+.search_input {
+    width: 100%;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: rgba(51, 51, 51, 0.158);
+    color: #000000;
+    font-size: larger;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.search_input:hover {
+    font-size: x-large;
 }
