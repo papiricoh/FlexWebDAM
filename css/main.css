@@ -1,0 +1,92 @@
+* {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    max-height: 4rem;
+}
+
+body {
+    margin: 0;
+}
+
+
+button {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 10px;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+.menu {
+    width: 100%;
+    height: 5rem;
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 70rem;
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 8rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.subtitle {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.back-white {
+    background-color: rgb(221, 221, 221);
+}
+
+.back-white:hover {
+    background-color: rgb(191, 191, 191);
+}
