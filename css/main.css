@@ -76,7 +76,7 @@ button:hover {
 .hero {
     width: 100%;
     height: 70rem;
-    background-image: url("https://wallpaperaccess.com/full/347644.jpg");
+    background-image: url("https://wallpapercave.com/wp/wp3935830.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -272,4 +272,8 @@ p {
 
 .search_input:hover {
     font-size: x-large;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 0 black;
 }
