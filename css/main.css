@@ -41,6 +41,7 @@ button {
     padding: 10px 2px;
     transition: 0.25s;
 }
+
 .search_box:focus {
     margin: 50px;
 }
@@ -231,7 +232,7 @@ p {
     min-height: 14rem;
     max-height: 30rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -277,4 +278,14 @@ p {
 
 .text-shadow {
     text-shadow: 5px 5px 0 black;
+}
+
+.search_select {
+    width: 40%;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 0;
+    color: #000000;
+    font-size: larger;
+    cursor: pointer;
 }

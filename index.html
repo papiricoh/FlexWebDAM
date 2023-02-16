@@ -15,6 +15,7 @@
             <img id="logo" src="./img/SD-generated-logo.png" alt="">
             <a href="#top_sport"><button>Top Deportivos</button></a>
             <a href="#top_utilities"><button>Top Utilitarios</button></a>
+            <a href="#top_suvs"><button>Top SUVs</button></a>
             <a href="#top_dealerships"><button>Top Fablicantes</button></a>
         </div>
         <div class="right_menu">
@@ -28,6 +29,22 @@
             <h1 class="title text-shadow">WeCar Online</h1>
             <div class="subtitle text-shadow">Buscador de vehiculos</div>
             <div class="main_search">
+                <select class="search_select" name="brand" id="brand_select">
+                    <option selected>Fabricante</option>
+                    <option value="porsche">Porsche</option>
+                    <option value="audi">Audi</option>
+                    <option value="lamborghini">Lamborghini</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="nissan">Nissan</option>
+                    <option value="mazda">Mazda</option>
+                    <option value="aston_martin">Aston Martin</option>
+                    <option value="ford">Ford</option>
+                    <option value="honda">Honda</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="smart">Smart</option>
+                    <option value="renault">Renault</option>
+                    <option value="mclaren">McLaren</option>
+                </select>
                 <input class="search_input" type="text" placeholder="Busca tu coche">
                 <button class="back-white back-green">Buscar</button>
             </div>
@@ -140,18 +157,74 @@
                         </ul>
                         <button class="card_button">$25,750.00</button>
                     </div>
+                    <div class="open_card">
+                        <div class="open_card_title_box">
+                            <h2 class="full_card_title">Fortwo</h2>
+                            <h3 class="full_card_subtitle">Smart</h3>
+                        </div>
+                        <img class="open_card_img"
+                            src="https://www.km77.com/images/medium/4/9/8/7/mediana-ext-1.344987.jpg" alt="">
+                        <p>Pequeño coche diseñado para desplazamientos urbanos con el que Smart ha conquistado el
+                            segmento de los vehículos de menor tamaño.</p>
+                        <ul class="flex_list">
+                            <li>HP: <b>90</b></li>
+                            <li>0-100: <b>11,9s</b></li>
+                            <li>Año: <b>2015</b></li>
+                        </ul>
+                        <button class="card_button">$23,850.00</button>
+                    </div>
+                    <div class="open_card">
+                        <div class="open_card_title_box">
+                            <h2 class="full_card_title">Fiesta</h2>
+                            <h3 class="full_card_subtitle">Ford</h3>
+                        </div>
+                        <img class="open_card_img"
+                            src="https://phantom-marca.unidadeditorial.es/3109fee54ab26c972a4756356d13fe97/resize/1320/f/jpg/assets/multimedia/imagenes/2021/09/20/16321335901911.jpg"
+                            alt="">
+                        <p>El nuevo Ford Fiesta llega con fuerza gracias a su nuevo y llamativo diseño exterior, su
+                            tecnología inteligente y su gama de avanzados motores híbridos y eficientes bajo el capó.
+                        </p>
+                        <ul class="flex_list">
+                            <li>HP: <b>70</b></li>
+                            <li>0-100: <b>15,3s</b></li>
+                            <li>Año: <b>2022</b></li>
+                        </ul>
+                        <button class="card_button">$20,250.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="seccion"> <!-- SUV CARS SECTION-->
+                <h2 class="subtitle black" id="top_suvs">Top SUVs</h2>
+                <div class="seccion_body">
+                    <div class="open_card">
+                        <div class="open_card_title_box">
+                            <h2 class="full_card_title">Q7</h2>
+                            <h3 class="full_card_subtitle">Audi</h3>
+                        </div>
+                        <img class="open_card_img"
+                            src="https://static.motor.es/fotos-noticias/2020/06/precio-audi-q7-55-tfsi-e-quattro-202068249-1591990679_1.jpg"
+                            alt="">
+                        <p>El SUV más imponente de su categoría. Con un diseño renovado y nuevos motores con tecnología
+                            eficiente Mild hybrid de serie.</p>
+                        <ul class="flex_list">
+                            <li>HP: <b>231</b></li>
+                            <li>0-100: <b>7,1s</b></li>
+                            <li>Año: <b>2021</b></li>
+                        </ul>
+                        <button class="card_button">$74,460.00</button>
+                    </div>
                 </div>
             </div>
             <div class="seccion"> <!-- DEALERSHIPS SECTION-->
-                <h2 class="subtitle black"  id="top_dealerships">Top Fablicantes</h2>
+                <h2 class="subtitle black" id="top_dealerships">Top Fabricantes</h2>
                 <div class="seccion_body">
                     <div class="card">
                         <div class="card_title">Porsche</div>
-                        <img class="card_img"
-                            src="https://www.mecatechnic.com/img/photos/1000x1000/RS14247-2.jpg"
+                        <img class="card_img" src="https://www.mecatechnic.com/img/photos/1000x1000/RS14247-2.jpg"
                             alt="">
                         <hr>
-                        <p>Fabricante de automóviles alemán especializado en automóviles deportivos de lujo de alta gama, vehículo utilitarios deportivos y sedanes.</p>
+                        <p>Fabricante de automóviles alemán especializado en automóviles deportivos de lujo de alta
+                            gama, vehículo utilitarios deportivos y sedanes.</p>
                     </div>
                     <div class="card">
                         <div class="card_title">Lamborghini</div>
@@ -159,15 +232,16 @@
                             src="https://img.remediosdigitales.com/ea3a4d/10974309_1087071384651814_2377105394985826515_o/1366_2000.jpg"
                             alt="">
                         <hr>
-                        <p>Fabricante italiano de automóviles superdeportivos fundado en 1963 por el fabricante de tractores Ferruccio Lamborghini</p>
+                        <p>Fabricante italiano de automóviles superdeportivos fundado en 1963 por el fabricante de
+                            tractores Ferruccio Lamborghini</p>
                     </div>
                     <div class="card">
                         <div class="card_title">Ferrari</div>
-                        <img class="card_img"
-                            src="https://img.remediosdigitales.com/96633b/140013_cor/450_1000.jpg"
+                        <img class="card_img" src="https://img.remediosdigitales.com/96633b/140013_cor/450_1000.jpg"
                             alt="">
                         <hr>
-                        <p>Fabricante de automóviles superdeportivos con sede en Maranello, provincia de Módena, en la región de Emilia-Romaña, Italia.</p>
+                        <p>Fabricante de automóviles superdeportivos con sede en Maranello, provincia de Módena, en la
+                            región de Emilia-Romaña, Italia.</p>
                     </div>
                     <div class="card">
                         <div class="card_title">McLaren</div>
@@ -175,15 +249,16 @@
                             src="https://i.pinimg.com/236x/70/11/c3/7011c366949cdc6103e0cc7c9132d300--mclaren-formula--logos.jpg"
                             alt="">
                         <hr>
-                        <p>Fabricante británico de automóviles deportivos. Fue fundado en 1985 como desprendimiento de la escudería de automovilismo creada en 1963 por Bruce McLaren, con la que comparte tecnología.</p>
+                        <p>Fabricante británico de automóviles deportivos. Fue fundado en 1985 como desprendimiento de
+                            la escudería de automovilismo creada en 1963 por Bruce McLaren, con la que comparte
+                            tecnología.</p>
                     </div>
                 </div>
             </div>
             <div class="footer">
                 <a class="footer_element">Conocenos</a>
                 <a class="footer_element">Contacto</a>
-                <a class="footer_element">Contacto</a>
-                <a class="footer_element">Contacto</a>
+                <a class="footer_element">Preguntas Comunes</a>
             </div>
         </div>
     </div>
