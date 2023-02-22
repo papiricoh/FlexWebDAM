@@ -289,3 +289,7 @@ p {
     font-size: larger;
     cursor: pointer;
 }
+
+.hamburguer {
+    display: none;
+}

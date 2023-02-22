@@ -1,4 +1,7 @@
 /* INSERT TABLET CSS */
 @media screen {
-    
+        
+    .hamburguer {
+        display: inline;
+    }
 }

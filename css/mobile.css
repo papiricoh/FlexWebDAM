@@ -1,4 +1,7 @@
 /* INSERT MOBILE CSS */
 @media screen {
     
+    .hamburguer {
+        display: inline;
+    }
 }
