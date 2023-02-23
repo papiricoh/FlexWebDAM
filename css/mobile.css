@@ -1,6 +1,12 @@
 /* INSERT MOBILE CSS */
-@media screen {
-    
+@media screen and (orientation:portrait) and (max-width: 500px){
+    .top_button {
+        display: none;
+    }
+    .main_search {
+        width: 90%;
+    }
+
     .hamburguer {
         display: inline;
     }
