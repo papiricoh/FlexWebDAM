@@ -304,3 +304,34 @@ p {
     display: none;
     
 }
+
+.data_grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.data_grid > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data_zone {
+    flex-direction: column;
+    margin:2px;
+    padding: 6px;
+}
+
+.data_top {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+.data_title {
+    font-size: 2rem;
+}
