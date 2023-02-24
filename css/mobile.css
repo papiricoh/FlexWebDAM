@@ -29,6 +29,16 @@
         font-size: 2rem;
     }
 
+    .back-white{
+        padding: 20px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .card_button{
+        color: white;
+    }
+
     .hamburguer {
         display: inline;
     }
