@@ -7,6 +7,20 @@
         width: 90%;
     }
 
+    .title{
+        font-size: 5rem;
+        font-weight: bolder;
+        color: white;
+        
+    }
+
+    .subtitle{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 10px;
+    }
+
     .hamburguer {
         display: inline;
     }
