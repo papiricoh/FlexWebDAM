@@ -1,5 +1,5 @@
 /* INSERT TABLET CSS */
-@media screen {
+@media screen and (orientation:portrait) and (max-width: 800px) {
         
     .hamburguer {
         display: inline;
