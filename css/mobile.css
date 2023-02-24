@@ -5,20 +5,28 @@
     }
     .main_search {
         width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
     }
 
-    .title{
-        font-size: 5rem;
-        font-weight: bolder;
-        color: white;
-        
+    .search_input{
+        width: 95%;
+        height: 50px;
+    } 
+
+    .hero {
+        height: 50rem;
     }
 
-    .subtitle{
+    .title {
+        text-align: center;
+        font-size: 6rem;
+    }
+    .subtitle {
+        text-align: center;
         font-size: 2rem;
-        font-weight: bold;
-        color: white;
-        margin-bottom: 10px;
     }
 
     .hamburguer {
