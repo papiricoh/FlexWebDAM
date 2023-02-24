@@ -39,6 +39,14 @@
         color: white;
     }
 
+    .open_card{
+        width: 20rem;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
     .hamburguer {
         display: inline;
     }
