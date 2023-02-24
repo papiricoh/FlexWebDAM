@@ -1,6 +1,44 @@
 /* INSERT MOBILE CSS */
-@media screen {
-    
+@media screen and (orientation:portrait) and (max-width: 500px){
+    .top_button {
+        display: none;
+    }
+    .main_search {
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .search_input{
+        width: 95%;
+        height: 50px;
+    } 
+
+    .hero {
+        height: 50rem;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 6rem;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .back-white{
+        padding: 20px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .card_button{
+        color: white;
+    }
+
     .hamburguer {
         display: inline;
     }
