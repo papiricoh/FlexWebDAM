@@ -5,6 +5,28 @@
     }
     .main_search {
         width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .search_input{
+        width: 95%;
+        height: 50px;
+    } 
+
+    .hero {
+        height: 50rem;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 6rem;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 2rem;
     }
 
     .hamburguer {
