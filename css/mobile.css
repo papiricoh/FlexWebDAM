@@ -3,6 +3,12 @@
     .top_button {
         display: none;
     }
+    .display_button {
+        display: none;
+    }
+    .left_menu {
+        flex-direction: column;
+    }
     .main_search {
         width: 90%;
         flex-direction: column;
