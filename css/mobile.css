@@ -11,6 +11,11 @@
         text-align: center;
     }
 
+    .menu {
+        background-color: white;
+        position: fixed;
+    }
+
     .search_input{
         width: 95%;
         height: 50px;
@@ -50,4 +55,22 @@
     .hamburguer {
         display: inline;
     }
+        
+    .data_grid {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .data_grid > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
 }
