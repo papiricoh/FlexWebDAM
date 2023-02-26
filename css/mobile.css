@@ -23,11 +23,12 @@
     }
 
     .search_input{
-        width: 95%;
+        width: 85%;
         height: 50px;
     } 
 
     .hero {
+        padding-top: 5rem;
         height: 50rem;
     }
 
