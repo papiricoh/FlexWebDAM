@@ -398,3 +398,35 @@ p {
     font-size: small;
     width: 18rem;
 }
+
+.mobile_menu {
+    position: fixed;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid;
+    margin-top: 5rem;
+}
+.mobile_menu > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.mobile_menu > a > button {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    transition: all 0.5s;
+}
+.mobile_menu > a > button:hover {
+    color:rgb(8, 142, 64);
+    border-bottom: 4px solid;
+    transition: all 0.5s;
+}
