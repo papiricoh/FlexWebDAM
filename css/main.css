@@ -101,6 +101,7 @@ button:hover {
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .back-white {
@@ -303,4 +304,129 @@ p {
 .hamburguer {
     display: none;
     
+}
+
+.data_grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.data_grid > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.data_zone {
+    flex-direction: column;
+    margin:2px;
+    padding: 6px;
+    border-radius: 0.5rem;
+    background-color: white;
+    transition: background-color 1s, border-radius 0.75s;
+}
+
+.data_zone:hover {
+    flex-direction: column;
+    margin:2px;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 2rem;
+    background-color: rgb(8, 142, 64);
+    transition: background-color 1s, border-radius 0.75s;
+}
+
+.data_top {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+.data_title {
+    font-size: 2rem;
+}
+
+.data_bottom {
+    text-align: left;
+    font-size: medium;
+}
+
+.prefooter {
+    color: white;
+    background-color: rgb(29, 104, 60);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+}
+
+.right-vr {
+    padding: 1rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    border-right: 2px solid;
+}
+
+.prefooter-photo {
+    padding: 1rem;
+    width: 34rem;
+    height: 22rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-image: url("https://www.cci-construction.com/wp-content/uploads/cci-construction-auto-dealership.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.prefooter-data {
+    text-align: center;
+    font-size: larger;
+    width: 18rem;
+}
+
+.prefooter-data > p {
+    text-align: justify;
+    font-size: small;
+    width: 18rem;
+}
+
+.mobile_menu {
+    position: fixed;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid;
+    margin-top: 5rem;
+}
+.mobile_menu > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.mobile_menu > a > button {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    transition: all 0.5s;
+}
+.mobile_menu > a > button:hover {
+    color:rgb(8, 142, 64);
+    border-bottom: 4px solid;
+    transition: all 0.5s;
 }
