@@ -440,3 +440,46 @@ p {
     width: 10rem;
     transition: all 0.5s;
 }
+
+.icon {
+    margin: 10px;
+}
+
+.submit-button {
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.submit-button:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.email_input {
+    text-align: center;
+    padding: 8px;
+    width: 220px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 0;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 4px black;
+    margin-bottom: 2px;
+}
+
+.email_input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+a {
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: black;
+}
+.submit-button>a:hover {
+    color: white;
+}
