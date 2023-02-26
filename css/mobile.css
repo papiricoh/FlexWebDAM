@@ -88,4 +88,14 @@
         gap: 10px;
     }
 
+    .footer {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+        
+    .footer_element_large {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
