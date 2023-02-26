@@ -78,7 +78,7 @@ button:hover {
 .hero {
     width: 100%;
     height: 70rem;
-    background-image: url("https://wallpapercave.com/wp/wp3935830.jpg");
+    background-image: url("../img/background-SD1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -145,6 +145,7 @@ button:hover {
     padding: 5px;
 }
 
+
 hr {
     width: 90%;
 }
@@ -180,6 +181,13 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+    padding-top: 2px;
+}
+
+.open_card:hover {
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.154);
+    padding-top: 0;
+    border-top: 2px solid;
 }
 
 .card_subtitle {
@@ -382,7 +390,7 @@ p {
     height: 22rem;
     margin: 1rem;
     border-radius: 1rem;
-    background-image: url("https://www.cci-construction.com/wp-content/uploads/cci-construction-auto-dealership.jpg");
+    background-image: url("../img/background-SD6.png");
     background-position: center;
     background-size: cover;
 }
