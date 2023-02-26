@@ -98,4 +98,19 @@
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
+    .prefooter {
+        flex-direction: column;
+    }
+    .right-vr {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border: 0;
+        border-bottom: 2px solid;
+    }
+
+    .prefooter-photo {
+        width: 90%;
+        height: 12rem;
+    }
 }
