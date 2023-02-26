@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <script src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="./js/index.js"></script>
     <title>WeCar Online</title>
 </head>
 
@@ -16,17 +17,23 @@
     <div class="menu">
         <div class="left_menu">
             <img id="logo" src="./img/SD-generated-logo.png" alt="">
-            <a href="#top_sport"><button class="top_button">Top Deportivos</button></a>
-            <a href="#top_utilities"><button class="top_button">Top Utilitarios</button></a>
-            <a href="#top_suvs"><button class="top_button">Top SUVs</button></a>
-            <a href="#top_dealerships"><button class="top_button">Top Fablicantes</button></a>
+            <a href="#top_sport"><button class="top_button display_button">Top Deportivos</button></a>
+            <a href="#top_utilities"><button class="top_button display_button">Top Utilitarios</button></a>
+            <a href="#top_suvs"><button class="top_button display_button">Top SUVs</button></a>
+            <a href="#top_dealerships"><button class="top_button display_button">Top Fablicantes</button></a>
         </div>
         <div class="right_menu">
             <input class="search_box top_button" type="text" placeholder="Busqueda general">
             <button class="log_in_button top_button">Log In</button>
             <button class="log_in_button top_button">Register</button>
-            <button class="hamburguer"><i class="ph-list-bold ph-xl"></i></button>
+            <button class="hamburguer" id="menu"><i class="ph-list-bold ph-xl"></i></button>
         </div>
+    </div>
+    <div class="mobile_menu" style="display: none;">
+        <a href="#top_sport"><button>Top Deportivos</button></a>
+        <a href="#top_utilities"><button>Top Utilitarios</button></a>
+        <a href="#top_suvs"><button>Top SUVs</button></a>
+        <a href="#top_dealerships"><button>Top Fablicantes</button></a>
     </div>
     <div class="main_body">
         <div class="hero">
