@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <script src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="./js/index.js"></script>
     <title>WeCar Online</title>
 </head>
 
@@ -16,17 +17,23 @@
     <div class="menu">
         <div class="left_menu">
             <img id="logo" src="./img/SD-generated-logo.png" alt="">
-            <a href="#top_sport"><button class="top_button">Top Deportivos</button></a>
-            <a href="#top_utilities"><button class="top_button">Top Utilitarios</button></a>
-            <a href="#top_suvs"><button class="top_button">Top SUVs</button></a>
-            <a href="#top_dealerships"><button class="top_button">Top Fablicantes</button></a>
+            <a href="#top_sport"><button class="top_button display_button">Top Deportivos</button></a>
+            <a href="#top_utilities"><button class="top_button display_button">Top Utilitarios</button></a>
+            <a href="#top_suvs"><button class="top_button display_button">Top SUVs</button></a>
+            <a href="#top_dealerships"><button class="top_button display_button">Top Fablicantes</button></a>
         </div>
         <div class="right_menu">
             <input class="search_box top_button" type="text" placeholder="Busqueda general">
             <button class="log_in_button top_button">Log In</button>
             <button class="log_in_button top_button">Register</button>
-            <button class="hamburguer"><i class="ph-list-bold ph-xl"></i></button>
+            <button class="hamburguer" id="menu"><i class="ph-list-bold ph-xl"></i></button>
         </div>
+    </div>
+    <div class="mobile_menu" style="display: none;">
+        <a href="#top_sport"><button>Top Deportivos</button></a>
+        <a href="#top_utilities"><button>Top Utilitarios</button></a>
+        <a href="#top_suvs"><button>Top SUVs</button></a>
+        <a href="#top_dealerships"><button>Top Fablicantes</button></a>
     </div>
     <div class="main_body">
         <div class="hero">
@@ -54,6 +61,39 @@
             </div>
         </div>
         <div class="secctions">
+            <div class="section">
+                <h2 class="subtitle black">Nuestras Categorias</h2>
+                <div class="data_grid">
+                    <div class="data_zone">
+                        <div class="data_top">
+                            <i class="ph-car ph-3x"></i>
+                            <div class="data_title">Coches Nuevos</div>
+                        </div>
+                        <div class="data_bottom">Busca coches a estrenar o personaliza el tuyo propio</div>
+                    </div>
+                    <div class="data_zone">
+                        <div class="data_top">
+                            <i class="ph-map-pin ph-3x"></i>
+                            <div class="data_title">Coches de Ocasion</div>
+                        </div>
+                        <div class="data_bottom">Kilometro 0 o poco kilometraje a buen precio</div>
+                    </div>
+                    <div class="data_zone">
+                        <div class="data_top">
+                            <i class="ph-tag ph-3x"></i>
+                            <div class="data_title">Coches de segunda mano</div>
+                        </div>
+                        <div class="data_bottom">Encuentra increibles ofertas de coches usados</div>
+                    </div>
+                    <div class="data_zone">
+                        <div class="data_top">
+                            <i class="ph-factory ph-3x"></i>
+                            <div class="data_title">Coches por piezas</div>
+                        </div>
+                        <div class="data_bottom">Construye tu propio automovil</div>
+                    </div>
+                </div>
+            </div>
             <div class="seccion"> <!-- SPORT CARS SECTION-->
                 <h2 class="subtitle black" id="top_sport">Top Deportivos</h2>
                 <div class="seccion_body">
@@ -258,6 +298,15 @@
                             tecnología.</p>
                     </div>
                 </div>
+            </div>
+            <div class="prefooter">
+                <div class="right-vr">
+                    <div class="prefooter-data">
+                        <b>Contactanos</b>
+                        <p>Contactanos para recibir las ultimas ofertas sobre los mejores vehiculos del mercado, WeCar siempre contigo buscando el mejor precio</p>
+                    </div>
+                </div>
+                <div class="prefooter-photo"></div>
             </div>
             <div class="footer">
                 <a class="footer_element footer_element_large">Conocenos</a>
