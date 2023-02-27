@@ -78,7 +78,7 @@ button:hover {
 .hero {
     width: 100%;
     height: 70rem;
-    background-image: url("https://wallpapercave.com/wp/wp3935830.jpg");
+    background-image: url("../img/background-SD1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -145,6 +145,7 @@ button:hover {
     padding: 5px;
 }
 
+
 hr {
     width: 90%;
 }
@@ -180,6 +181,13 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+    padding-top: 2px;
+}
+
+.open_card:hover {
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.154);
+    padding-top: 0;
+    border-top: 2px solid;
 }
 
 .card_subtitle {
@@ -382,7 +390,7 @@ p {
     height: 22rem;
     margin: 1rem;
     border-radius: 1rem;
-    background-image: url("https://www.cci-construction.com/wp-content/uploads/cci-construction-auto-dealership.jpg");
+    background-image: url("../img/background-SD6.png");
     background-position: center;
     background-size: cover;
 }
@@ -423,10 +431,55 @@ p {
     background-color: transparent;
     border-radius: 0;
     border-bottom: 1px solid;
+    width: auto;
     transition: all 0.5s;
 }
 .mobile_menu > a > button:hover {
     color:rgb(8, 142, 64);
     border-bottom: 4px solid;
+    width: 10rem;
     transition: all 0.5s;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.submit-button {
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.submit-button:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.email_input {
+    text-align: center;
+    padding: 8px;
+    width: 220px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 0;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 4px black;
+    margin-bottom: 2px;
+}
+
+.email_input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+a {
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: black;
+}
+.submit-button>a:hover {
+    color: white;
 }
