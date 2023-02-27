@@ -4,6 +4,7 @@
 
 #logo {
     margin-left: 20px;
+    margin-right: 15%;
     max-height: 4rem;
 }
 
@@ -67,6 +68,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .right_menu {
@@ -482,4 +484,14 @@ a {
 }
 .submit-button>a:hover {
     color: white;
+}
+
+.left_menu>a {
+    align-self: flex-end;
+}
+
+.display_button {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
 }
