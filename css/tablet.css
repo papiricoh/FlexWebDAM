@@ -3,5 +3,12 @@
         
     .hamburguer {
         display: inline;
+
     }
+
+    .top_button{
+        display : none;
+    }
+
+
 }
