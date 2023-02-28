@@ -21,5 +21,11 @@
         width : 80%;
     }
 
+    .title{
+        font-size: 70px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
 
 }
