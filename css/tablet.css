@@ -3,5 +3,42 @@
         
     .hamburguer {
         display: inline;
+
     }
+
+    .top_button{
+        display : none;
+    }
+
+    .main_search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .search_input{
+        height: 40px;
+        width : 80%;
+    }
+
+    .title{
+        font-size: 70px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .subtitle{
+        font-size: 45px;
+        display: flex;
+        flex-direction: column;
+        align-content: center; 
+    }
+
+    .data_grid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
 }
