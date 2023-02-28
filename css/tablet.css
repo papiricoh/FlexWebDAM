@@ -10,5 +10,16 @@
         display : none;
     }
 
+    .main_search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .search_input{
+        height: 40px;
+        width : 80%;
+    }
+
 
 }
