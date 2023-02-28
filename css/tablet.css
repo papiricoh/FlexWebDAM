@@ -27,5 +27,18 @@
         flex-direction: column;
         align-content: center;
     }
+    .subtitle{
+        font-size: 45px;
+        display: flex;
+        flex-direction: column;
+        align-content: center; 
+    }
+
+    .data_grid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
 
 }
