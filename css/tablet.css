@@ -3,11 +3,16 @@
         
     .hamburguer {
         display: inline;
-
     }
+
 
     .top_button{
         display : none;
+    }
+
+    .menu {
+        background-color: white;
+        position: fixed;
     }
 
     .main_search{
